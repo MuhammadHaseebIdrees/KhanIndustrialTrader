@@ -5,7 +5,7 @@
 .pipes_details_heading {
     font-size: 2rem;
     background-color: #D22A2B;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     color: white;
     padding: .6rem 1rem;
@@ -16,7 +16,7 @@
 }
 
 .types_heading {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.7rem;
     border-bottom: 2px solid #D22A2B;
     color: #D22A2B;
@@ -32,7 +32,7 @@
 .high_temp_heading {
     display: flex;
     justify-content: space-between;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .high_temp_text {
@@ -64,7 +64,7 @@
 }
 
 .sizes_heading {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.7rem;
     border-bottom: 2px solid #D22A2B;
     color: #D22A2B;
@@ -75,7 +75,7 @@
 .diameter_outer {
     margin-top: .7rem;
     font-size: 1.3rem;
-    font-family: "Poppins";
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* margin-left: 2rem; */
 }
 

@@ -14,7 +14,7 @@
 .products_heading {
     font-size: 2rem;
     background-color: #D22A2B;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     color: white;
     padding: .6rem 1rem;
@@ -26,7 +26,7 @@
 
 .products_text {
     font-size: 1.8rem;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     border-bottom: 2px solid #D22A2B;
     margin-top: 2rem;
@@ -39,7 +39,7 @@
 
 .products_list ul li {
     font-size: 1.2rem;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: uppercase;
 }
 

@@ -17,7 +17,7 @@
 .form_heading_main {
     font-size: 2rem;
     background-color: #D22A2B;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     color: white;
     padding: .6rem 1rem;
@@ -30,13 +30,13 @@
 
 .form_div form label {
     margin: 0.7rem 0;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.2rem;
     font-weight: bold;
 }
 
 .form_div form input {
-    font-family: "Poppins";
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 300;
     padding: 0.5rem;
     font-size: 1.1rem;
@@ -49,7 +49,7 @@
     padding: 0.5rem;
     font-size: 1.1rem;
     border-radius: 3px;
-    font-family: "Poppins";
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     resize: none;
 }
 
@@ -75,10 +75,11 @@
     border: none;
     border-radius: 7px;
     cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .find_us_here_heading {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2.1rem;
     border-bottom: 2px solid #D22A2B;
     color: #D22A2B;

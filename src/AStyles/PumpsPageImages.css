@@ -5,7 +5,7 @@
 .pump_heading {
     font-size: 2rem;
     background-color: #D22A2B;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     color: white;
     padding: .6rem 1rem;
@@ -13,7 +13,7 @@
 
 .khan_pumps_mini_details {
     font-size: 1.3rem;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 1.5rem;
 }
 
@@ -44,7 +44,7 @@
 .text_pump_single {
     font-size: 1.2rem;
     color: #D22A2B;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: capitalize;
     margin-top: 0.4rem;
 }
@@ -105,11 +105,12 @@
     .pump_page_main {
         padding: 1.3rem 1.5rem;
     }
-    .pump_heading{
+
+    .pump_heading {
         font-size: 1.4rem;
     }
 
-    .single_box{
+    .single_box {
         font-size: 1rem;
         width: 100%;
         padding-bottom: 1rem;

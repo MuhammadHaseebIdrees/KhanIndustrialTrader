@@ -17,7 +17,7 @@
 .product_card_heading {
     font-size: 1.5rem;
     background-color: #D22A2B;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     color: white;
     padding: 1rem 1rem;
@@ -35,7 +35,7 @@
     border: none;
     border-radius: 5px;
     /* font-size: 1.2rem; */
-    font-family: 'Fira Sans', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
 }
 
