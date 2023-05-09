@@ -1,0 +1,188 @@
+.pipe_details_main {
+    padding: 2rem 5rem;
+}
+
+.pipes_details_heading {
+    font-size: 2rem;
+    background-color: #D22A2B;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: .6rem 1rem;
+}
+
+.kinds_area {
+    padding: 1.5rem 0;
+}
+
+.types_heading {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.7rem;
+    border-bottom: 2px solid #D22A2B;
+    color: #D22A2B;
+    word-spacing: 15px;
+    letter-spacing: 3px;
+}
+
+.high_tem_div {
+    margin-top: 1.5rem;
+    overflow: hidden;
+}
+
+.high_temp_heading {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.high_temp_text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.heading_icon_expand {
+    font-size: 1.5rem;
+    color: #D22A2B;
+    cursor: pointer;
+}
+
+.pipe_image_div {
+    display: none;
+    margin-top: 1.3rem;
+}
+
+.animation_drop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pipe_image_div img {
+    height: 100%;
+    width: 23%;
+}
+
+.sizes_heading {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.7rem;
+    border-bottom: 2px solid #D22A2B;
+    color: #D22A2B;
+    word-spacing: 15px;
+    letter-spacing: 3px;
+}
+
+.diameter_outer {
+    margin-top: .7rem;
+    font-size: 1.3rem;
+    font-family: "Poppins";
+    /* margin-left: 2rem; */
+}
+
+.diameter_outer span {
+    font-size: 1.5rem;
+    color: #D22A2B;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:1000px) {
+    .pipe_details_main {
+        padding: 1.6rem 3rem;
+    }
+
+    .pipes_details_heading {
+        font-size: 1.7rem;
+    }
+
+    .types_heading {
+        font-size: 1.5rem;
+    }
+
+    .heading_icon_expand,
+    .high_temp_text {
+        font-size: 1.3rem;
+    }
+
+    .sizes_heading {
+        font-size: 1.5rem;
+    }
+
+    .diameter_outer {
+        font-size: 1.1rem;
+    }
+
+    .diameter_outer span {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .pipe_details_main {
+        padding: 1.3rem 2.4rem;
+    }
+
+    .pipes_details_heading {
+        font-size: 1.5rem;
+    }
+
+    .types_heading {
+        font-size: 1.34rem;
+    }
+
+    .heading_icon_expand,
+    .high_temp_text {
+        font-size: 1.13rem;
+    }
+
+    .sizes_heading {
+        font-size: 1.34rem;
+    }
+
+    .diameter_outer {
+        font-size: 1rem;
+    }
+
+    .diameter_outer span {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .pipe_details_main {
+        padding: 1.3rem 1.8rem;
+    }
+
+    .pipes_details_heading {
+        font-size: 1.4rem;
+    }
+
+    .types_heading {
+        font-size: 1.25rem;
+    }
+
+    .heading_icon_expand,
+    .high_temp_text {
+        font-size: 1rem;
+    }
+
+    .sizes_heading {
+        font-size: 1.25rem;
+    }
+
+    .pipe_image_div img {
+        height: 100%;
+        width: 40%;
+        margin: 1rem 0;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .pipe_details_main {
+        padding: 1rem 1.5rem;
+    }
+
+    .types_heading,
+    .sizes_heading {
+        font-size: 1.1rem;
+    }
+}

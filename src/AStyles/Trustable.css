@@ -1,0 +1,119 @@
+.trustable_main_div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 5rem;
+}
+
+.left_side_logo {
+    width: 47%;
+}
+
+.left_side_logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.right_side_trust {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.khan_industrial_heading {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3.4rem;
+    font-weight: bold;
+}
+
+.khan_industrial_moto {
+    font-size: 2.6rem;
+    margin-top: 2rem;
+    color: #D22A2B;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    width: 70%;
+    font-weight: 300;
+}
+
+@media only screen and (max-width:1000px) {
+    .left_side_logo {
+        width: 45%;
+    }
+
+    .trustable_main_div {
+        padding: 2.4rem 3.5rem;
+    }
+
+    .khan_industrial_heading {
+        font-size: 2.6rem;
+    }
+
+    .khan_industrial_moto {
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (max-width:870px) {
+    .khan_industrial_heading {
+        font-size: 2.2rem;
+    }
+
+    .khan_industrial_moto {
+        font-size: 1.8rem;
+        margin-top: 1rem;
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width:790px) {
+    .trustable_main_div {
+        flex-direction: column-reverse;
+        padding: 2rem 3rem;
+    }
+
+    .right_side_trust {
+        width: 100%;
+    }
+
+    .left_side_logo {
+        margin-top: 3rem;
+        width: 70%;
+    }
+
+    .khan_industrial_moto {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .khan_industrial_heading {
+        font-size: 2rem;
+    }
+
+    .khan_industrial_moto {
+        font-size: 1.7rem;
+    }
+
+    .left_side_logo {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .trustable_main_div {
+        padding: 1rem 1.5rem;
+    }
+
+    .khan_industrial_heading {
+        font-size: 1.9rem;
+    }
+
+    .khan_industrial_moto {
+        font-size: 1.5rem;
+    }
+}

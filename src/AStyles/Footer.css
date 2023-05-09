@@ -1,0 +1,266 @@
+.footer_main_div {
+    background-color: #0f1215;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem 6rem;
+}
+
+.pages_footer_div {
+    width: 25%;
+}
+
+.pages_heading_footer {
+    font-size: 1.7rem;
+    font-family: 'Fira Sans', sans-serif;
+    color: #dd0209;
+    font-weight: bold;
+}
+
+.last_footer {
+    width: 50%;
+}
+
+.links_footer_pages p,
+.address a,
+.Phone_numbers p,
+.mail_foooter a {
+    margin: 1rem 0;
+}
+
+.links_footer_pages p a,
+.address a,
+.Phone_numbers p,
+.mail_foooter a {
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.links_footer_pages p a:hover {
+    border-bottom: 2px solid #dd0209;
+}
+
+.ceo {
+    display: flex;
+}
+
+.ceo_head {
+    color: #dd0209;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.ceo_two {
+    display: flex;
+}
+
+.first_two {
+    margin-left: 4rem !important;
+}
+
+.mail_foooter a,
+.address a {
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+.footer_icon {
+    color: white;
+    height: 35px;
+    width: 35px;
+    background-color: #dd0209;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.form_social_links {
+    display: flex;
+}
+
+.icon_common {
+    margin-right: 2rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.icon_common a {
+    color: white;
+}
+
+.facebook_icon:hover {
+    color: royalblue;
+}
+
+.whatsapp_icon:hover {
+    color: rgb(5, 243, 5);
+}
+
+.email_icon:hover {
+    color: #dd0209;
+}
+
+.Phone_numbers {
+    background-color: #0f1215;
+    /* padding: 0.2rem 0; */
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.number_div {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.second_footer_bottom {
+    display: none;
+}
+
+@media only screen and (max-width:950px) {
+    .last_footer {
+        width: 100% !important;
+    }
+
+    .pages_footer_div {
+        width: 35%;
+    }
+
+    .footer_main_div {
+        padding: 1.4rem 4.5rem;
+    }
+
+    .links_footer_pages {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .links_footer_pages p {
+        width: 50%;
+    }
+
+    .number_div {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .pages_footer_div {
+        width: 43%;
+    }
+
+    .footer_main_div {
+        padding: 1rem 3.5rem;
+    }
+
+    .links_footer_pages p,
+    .address a,
+    .mail_foooter a {
+        margin: 0.8rem 0;
+    }
+
+    .links_footer_pages p a,
+    .address a,
+    .mail_foooter a {
+        color: white;
+        font-size: 0.9rem;
+        text-decoration: none;
+        font-family: 'Fira Sans', sans-serif;
+    }
+
+    .number_div {
+        width: 75%;
+    }
+
+    .ceo_two {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .Phone_numbers {
+        display: none;
+    }
+
+    .number_div {
+        width: auto;
+    }
+
+    .ceo_two {
+        width: auto;
+    }
+
+    .second_footer_bottom {
+        display: flex;
+        height: auto;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .links_footer_pages p {
+        width: 100%;
+    }
+
+    .footer_main_div {
+        padding: 1.5rem 3rem;
+    }
+
+    .span_text {
+        width: 80%;
+    }
+
+    .pages_heading_footer {
+        font-size: 1.5rem;
+        font-family: 'Fira Sans', sans-serif;
+        color: #dd0209;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .footer_icon {
+        width: 35px;
+    }
+
+    .pages_footer_div {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .footer_main_div {
+        padding: 1.5rem 2rem;
+    }
+
+    .links_footer_pages p,
+    .address a,
+    .mail_foooter a {
+        margin: 0.7rem 0;
+    }
+
+    .icon_common {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .ceo_two {
+        flex-direction: column;
+    }
+
+    .first_two {
+        margin: 0 !important;
+    }
+}

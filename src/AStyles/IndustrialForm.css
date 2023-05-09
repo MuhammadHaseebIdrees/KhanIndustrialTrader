@@ -1,0 +1,171 @@
+.form_industrial_main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.form_left_side_input {
+    width: 45%;
+}
+
+.form_right_side_input {
+    width: 45%;
+}
+
+.form_heading_main {
+    font-size: 2rem;
+    background-color: #D22A2B;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: .6rem 1rem;
+}
+
+.form_div form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_div form label {
+    margin: 0.7rem 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.form_div form input {
+    font-family: "Poppins";
+    font-weight: 300;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    height: 2.7rem;
+    border-radius: 3px;
+}
+
+.form_div form textarea {
+    font-weight: 300;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border-radius: 3px;
+    font-family: "Poppins";
+    resize: none;
+}
+
+.form_div form input:focus,
+.form_div form textarea:focus {
+    outline: 2px solid #D22A2B;
+    border: none;
+}
+
+.button_main_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.form_div form button {
+    height: 3rem;
+    width: 10rem;
+    background-color: #D22A2B;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.find_us_here_heading {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2.1rem;
+    border-bottom: 2px solid #D22A2B;
+    color: #D22A2B;
+    word-spacing: 15px;
+    letter-spacing: 3px;
+}
+
+.map {
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width:900px) {
+    .form_industrial_main {
+        padding: 1.5rem 4rem;
+    }
+
+    .form_heading_main {
+        font-size: 1.5rem;
+    }
+
+    .form_div form label {
+        font-size: 1rem;
+    }
+
+    .form_div form input {
+        font-size: 0.9rem;
+        font-weight: 400;
+        height: 2.37rem;
+        padding: 0 0.5rem;
+    }
+
+    .form_div form textarea {
+        font-weight: 400;
+        font-size: 0.9rem;
+    }
+
+    .find_us_here_heading {
+        font-size: 1.8rem;
+    }
+
+    .form_div form button {
+        height: 2.5rem;
+        font-size: 1rem;
+        width: 8rem;
+    }
+}
+
+@media only screen and (max-width:750px) {
+
+    .form_industrial_main {
+        padding: 1.5rem 2.5rem;
+    }
+
+    .form_left_side_input {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form_div {
+        width: 90%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        margin: 1.5rem 0;
+    }
+
+    .form_left_side_input,
+    .form_right_side_input {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .form_heading_main {
+        font-size: 1.35rem;
+    }
+
+    .form_industrial_main {
+        padding: 1.2rem 1.8rem;
+    }
+
+    .form_div {
+        margin: 1.5rem 0;
+        width: 100%;
+    }
+
+    .find_us_here_heading {
+        font-size: 1.5rem;
+    }
+}

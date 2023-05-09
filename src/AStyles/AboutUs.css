@@ -1,0 +1,227 @@
+.About_us_div {
+    padding: 2rem 4rem;
+}
+
+.about_upper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_us_left_side {
+    width: 50%;
+}
+
+.about_us_right {
+    width: 45%;
+}
+
+.about_us_heading {
+    font-size: 2rem;
+    background-color: #D22A2B;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: white;
+    padding: .6rem 1rem;
+}
+
+.about_us_paragraph {
+    font-size: 1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    margin: 1.5rem 0;
+    line-height: 1.8;
+}
+
+.moto_about {
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #D22A2B;
+    border-bottom: 2px solid #D22A2B;
+    word-spacing: 10px;
+}
+
+.Mission_heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    border-bottom: 2px solid #D22A2B;
+    color: #D22A2B;
+    word-spacing: 15px;
+    letter-spacing: 3px;
+}
+
+.missions_points {
+    margin-top: 3rem;
+}
+
+.missions_points ul {
+    line-height: 2;
+}
+
+.missions_points ul li {
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.lower_certificates_about {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.registration_left {
+    width: 50%;
+}
+
+.regiatration_heading {
+    font-size: 2rem;
+    background-color: #D22A2B;
+    font-weight: bold;
+    color: white;
+    padding: .6rem 1rem;
+}
+
+.registration_right {
+    width: 50%;
+}
+
+.registration_right img {
+    width: 100%;
+    height: 100%;
+}
+
+.intro_fbr {
+    font-size: 1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    margin: 1.5rem 0;
+    line-height: 1.8;
+}
+
+.ntn_main {
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #D22A2B;
+    border-bottom: 2px solid #D22A2B;
+    word-spacing: 10px;
+}
+
+@media only screen and (max-width:950px) {
+    .about_upper {
+        flex-direction: column;
+    }
+
+    .about_us_left_side {
+        width: 100%;
+    }
+
+    .about_us_right {
+        width: 100%;
+        margin: 3rem 0;
+    }
+
+    .lower_certificates_about {
+        flex-direction: column;
+        margin-top: 2.5rem;
+    }
+
+    .registration_left {
+        width: 100%;
+    }
+
+    .registration_right {
+        margin-top: 2rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .about_us_heading {
+        font-size: 1.7rem;
+    }
+
+    .about_us_paragraph {
+        font-size: 1.05rem;
+    }
+
+    .Mission_heading {
+        font-size: 1.8rem;
+    }
+
+    .missions_points {
+        margin-left: 20px;
+    }
+
+    .missions_points ul li {
+        font-size: 1.05rem;
+    }
+
+    .regiatration_heading {
+        font-size: 1.7rem;
+    }
+
+    .intro_fbr {
+        font-size: 1.05rem;
+    }
+
+    .lower_certificates_about {
+        margin-top: 1.9rem;
+    }
+
+    .about_us_right {
+        margin: 2rem 0;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .About_us_div {
+        padding: 1.5rem 2.5rem;
+    }
+
+    .about_us_heading {
+        font-size: 1.5rem;
+    }
+
+    .about_us_paragraph {
+        font-size: 1rem;
+    }
+
+    .Mission_heading {
+        font-size: 1.6rem;
+    }
+
+    .missions_points {
+        margin-left: 20px;
+    }
+
+    .missions_points ul li {
+        font-size: 1.rem;
+    }
+
+    .regiatration_heading {
+        font-size: 1.5rem;
+    }
+
+    .intro_fbr {
+        font-size: 1rem;
+    }
+
+    .moto_about,
+    .ntn_main {
+        font-size: 1.2rem;
+    }
+
+    .lower_certificates_about {
+        margin-top: 1.2rem;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .About_us_div {
+        padding: 1rem 2rem;
+    }
+
+    .lower_certificates_about {
+        margin-top: 0.6rem;
+    }
+}

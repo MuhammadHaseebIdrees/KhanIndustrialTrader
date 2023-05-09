@@ -1,0 +1,161 @@
+.nav_bar_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 7rem;
+}
+
+.pipes_and_valves_hwading {
+    float: right;
+    margin-top: 0.3rem;
+    font-size: 1rem;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.khan_nav_heading {
+    color: #c6040c;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: baseline;
+    border-bottom: 3px dashed #c6040c;
+}
+
+
+.nav_links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.nav_links p:hover {
+    border-bottom: 2px solid black;
+}
+
+.nav_links p a {
+    font-family: 'Fira Sans', sans-serif;
+
+    text-decoration: none;
+    font-weight: 600;
+    color: #212121;
+}
+
+.nav_links p a:hover {
+    /* transition: .3s; */
+    color: #c6040c;
+}
+
+.toogle_icons_nav {
+    display: none;
+}
+
+@media only screen and (max-width:1050px) {
+    .nav_bar_main {
+        padding: 1rem 4.5rem;
+    }
+}
+
+@media only screen and (max-width:950px) {
+    .nav_bar_main {
+        padding: 1rem 3rem;
+    }
+
+    .khan_nav_heading {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media only screen and (max-width:850px) {
+    .toogle_icons_nav {
+        display: block;
+        font-size: 1.7rem;
+        padding: 5px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #c6040c;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .pipes_and_valves_hwading {
+        font-family: 0.9rem;
+    }
+
+
+    .nav_links {
+        position: absolute;
+        top: 10rem;
+        flex-direction: column;
+        background-color: #212121;
+        border-right: 3px solid #c6040c;
+        width: 100%;
+        left: -100%;
+        transition: .5s;
+        z-index: 3;
+    }
+
+    .show_nav {
+        left: 0;
+        transition: .5s;
+        z-index: 3;
+    }
+
+    .nav_links p {
+        text-align: center;
+        margin: 1.5rem 0;
+    }
+
+    .nav_links p a {
+        color: white;
+    }
+
+    .nav_links p:hover {
+        border: none;
+    }
+
+    .khan_nav_heading {
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .nav_links {
+        top: 5.3rem;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .khan_nav_heading {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width:530px) {
+    .nav_bar_main {
+        padding: 1.3rem;
+    }
+
+    .industrial_nav_heading {
+        font-size: 0.9rem;
+    }
+
+    .toogle_icons_nav {
+        font-size: 1.4rem;
+        padding: 4px 8px;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    .khan_nav_heading {
+        font-size: 1.25rem;
+    }
+
+    .pipes_and_valves_hwading {
+        font: 0.8rem;
+    }
+}

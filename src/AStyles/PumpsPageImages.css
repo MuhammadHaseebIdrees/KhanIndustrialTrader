@@ -1,0 +1,117 @@
+.pump_page_main {
+    padding: 2rem 7rem;
+}
+
+.pump_heading {
+    font-size: 2rem;
+    background-color: #D22A2B;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: .6rem 1rem;
+}
+
+.khan_pumps_mini_details {
+    font-size: 1.3rem;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 1.5rem;
+}
+
+.single_boxes_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.single_box {
+    height: auto;
+    width: 23%;
+    border: 1px solid black;
+    margin: 0.7rem 0;
+    padding: 0.8rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image_pump_single img {
+    height: 100%;
+    width: 100%;
+}
+
+.text_pump_single {
+    font-size: 1.2rem;
+    color: #D22A2B;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: capitalize;
+    margin-top: 0.4rem;
+}
+
+.single_box:hover {
+    border: 2px solid #D22A2B;
+}
+
+@media only screen and (max-width:1000px) {
+    .pump_page_main {
+        padding: 1.7rem 4rem;
+    }
+
+    .pump_heading {
+        font-size: 1.7rem;
+    }
+
+    .khan_pumps_mini_details {
+        font-size: 1.2rem;
+    }
+
+    .text_pump_single {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .single_box {
+        width: 32%;
+    }
+
+    .pump_page_main {
+        padding: 1.5rem 3rem;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .single_box {
+        width: 46%;
+    }
+
+    .pump_heading {
+        font-size: 1.5rem;
+    }
+
+    .khan_pumps_mini_details {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .pump_page_main {
+        padding: 1.4rem 2rem;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .pump_page_main {
+        padding: 1.3rem 1.5rem;
+    }
+    .pump_heading{
+        font-size: 1.4rem;
+    }
+
+    .single_box{
+        font-size: 1rem;
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+}
