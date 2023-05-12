@@ -4,6 +4,8 @@ import '../AStyles/Navbar.css'
 
 import { FaBars, FaTimes } from 'react-icons/fa'
 
+import NavbarLogo from '../Assets/HomeAssets/LogoMain.jpeg'
+
 const Navbar = () => {
 
     const [expandNav, setExpandNav] = useState(false)

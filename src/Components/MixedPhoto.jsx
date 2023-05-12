@@ -7,7 +7,7 @@ const MixedPhoto = () => {
     return (
         <div className='main_main_mex'>
             <div className="mixed_image">
-                <img src={mixedPNG} alt='Photo' />
+                <img src={mixedPNG} alt='mixed_Photo' />
             </div>
         </div>
     )

@@ -152,10 +152,10 @@
 
 @media only screen and (max-width:430px) {
     .khan_nav_heading {
-        font-size: 1.25rem;
+        font-size: 1.1rem;
     }
 
     .pipes_and_valves_hwading {
-        font: 0.8rem;
+        font-size: 0.8rem;
     }
 }
