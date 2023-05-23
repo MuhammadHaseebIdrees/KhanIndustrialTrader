@@ -15,8 +15,8 @@ const Navbar = () => {
 
             <div className="left_side_nav">
 
+                <img src={NavbarLogo} alt='Navbar_logo' className='nav_logo_main' />
                 <div className="text_logo_nav">
-
                     <div className="khan_nav_heading">
                         KHAN INDUSTRIAL TRADER
                     </div>

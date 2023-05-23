@@ -28,6 +28,8 @@ import elb21 from '../Assets/weldFittings/elb21.jpg'
 import elb22 from '../Assets/weldFittings/elb22.jpg'
 import elb23 from '../Assets/weldFittings/elb23.jpg'
 import elb24 from '../Assets/weldFittings/elb24.jpg'
+import rubber from '../Assets/PipeAssets/rubber_joint.jpg'
+import flexible from '../Assets/PipeAssets/flexible_joint.jpg'
 
 
 const ButtWeldFittingsDetails = () => {
@@ -38,6 +40,8 @@ const ButtWeldFittingsDetails = () => {
     const [highFour, setHighFour] = useState(false)
     const [highFive, setHighFive] = useState(false)
     const [highSix, setHighSix] = useState(false)
+    const [highSeven, setHighSeven] = useState(false)
+    const [highEight, setHighEight] = useState(false)
 
     return (
         <div className='pipe_details_main'>
@@ -209,6 +213,52 @@ const ButtWeldFittingsDetails = () => {
                             <img src={elb22} alt="elb22" />
                             <img src={elb23} alt="elb23" />
                             <img src={elb24} alt="elb24" />
+                        </div>
+
+                    </div>
+
+                    <div className="high_tem_div">
+
+                        <div className="high_temp_heading">
+
+                            <div className="high_temp_text">
+                                Rubber Expansion Joint
+                            </div>
+
+                            <div
+                                className="heading_icon_expand"
+                                onClick={() => { setHighSeven(!highSeven); setHighTwo(false); setHighThree(false); setHighFour(false); setHighOne(false); setHighFive(false) }}
+                            >
+                                {highSeven ? <FaAngleUp /> : <FaAngleDown />}
+                            </div>
+
+                        </div>
+
+                        <div className={`pipe_image_div ${highSeven ? "animation_drop" : ""}`}>
+                            <img src={rubber} alt="elb21" />
+                        </div>
+
+                    </div>
+
+                    <div className="high_tem_div">
+
+                        <div className="high_temp_heading">
+
+                            <div className="high_temp_text">
+                                Flexible Joint
+                            </div>
+
+                            <div
+                                className="heading_icon_expand"
+                                onClick={() => { setHighEight(!highEight); setHighTwo(false); setHighThree(false); setHighFour(false); setHighOne(false); setHighFive(false) }}
+                            >
+                                {highEight ? <FaAngleUp /> : <FaAngleDown />}
+                            </div>
+
+                        </div>
+
+                        <div className={`pipe_image_div ${highEight ? "animation_drop" : ""}`}>
+                            <img src={flexible} alt="elb21" />
                         </div>
 
                     </div>

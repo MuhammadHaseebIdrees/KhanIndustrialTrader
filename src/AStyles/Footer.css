@@ -83,6 +83,7 @@
 
 .form_social_links {
     display: flex;
+    align-items: center;
 }
 
 .icon_common {
@@ -110,11 +111,12 @@
 .Phone_numbers {
     background-color: #0f1215;
     /* padding: 0.2rem 0; */
-    height: 4rem;
+    height: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: -1rem;
 }
 
 .number_div {

@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 7rem;
+    padding: 1rem 6rem;
 }
 
 .pipes_and_valves_hwading {
@@ -16,13 +16,22 @@
 .khan_nav_heading {
     color: #c6040c;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
     display: flex;
     align-items: baseline;
     border-bottom: 3px dashed #c6040c;
 }
 
+.nav_logo_main {
+    width: 70px;
+    margin-right: 20px;
+}
+
+.left_side_nav {
+    display: flex;
+    width: 40%;
+}
 
 .nav_links {
     display: flex;
@@ -63,8 +72,16 @@
         padding: 1rem 3rem;
     }
 
+    .nav_logo_main {
+        display: none;
+    }
+
     .khan_nav_heading {
         font-size: 1.5rem;
+    }
+
+    .left_side_nav {
+        width: auto;
     }
 
 }
@@ -83,7 +100,7 @@
     }
 
     .pipes_and_valves_hwading {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
 

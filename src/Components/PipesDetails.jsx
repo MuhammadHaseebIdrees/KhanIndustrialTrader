@@ -20,6 +20,8 @@ import Linep1 from '../Assets/PipeAssets/Linep1.jpg'
 import Linep2 from '../Assets/PipeAssets/Linep2.jpg'
 import Linep3 from '../Assets/PipeAssets/Linep3.jpg'
 import Linep4 from '../Assets/PipeAssets/Linep4.jpg'
+import msPipe from '../Assets/PipeAssets/ms_pipe.png'
+import giPipe from '../Assets/PipeAssets/Gi_pipe.png'
 
 const PipesDetails = () => {
 
@@ -28,6 +30,8 @@ const PipesDetails = () => {
     const [highThree, setHighThree] = useState(false)
     const [highFour, setHighFour] = useState(false)
     const [highFive, setHighFive] = useState(false)
+    const [highSix, setHighSix] = useState(false)
+    const [highSeven, setHighSeven] = useState(false)
 
     return (
         <div className='pipe_details_main'>
@@ -169,6 +173,52 @@ const PipesDetails = () => {
                             <img src={Linep2} alt="Linep1" />
                             <img src={Linep3} alt="Linep1" />
                             <img src={Linep4} alt="Linep1" />
+                        </div>
+
+                    </div>
+
+                    <div className="high_tem_div">
+
+                        <div className="high_temp_heading">
+
+                            <div className="high_temp_text">
+                                MS Pipe
+                            </div>
+
+                            <div
+                                className="heading_icon_expand"
+                                onClick={() => { setHighSix(!highSix); setHighFive(false); setHighSeven(false); setHighTwo(false); setHighThree(false); setHighFour(false); setHighOne(false) }}
+                            >
+                                {highSix ? <FaAngleUp /> : <FaAngleDown />}
+                            </div>
+
+                        </div>
+
+                        <div className={`pipe_image_div ${highSix ? "animation_drop" : ""}`}>
+                            <img src={msPipe} alt="Linep1" />
+                        </div>
+
+                    </div>
+
+                    <div className="high_tem_div">
+
+                        <div className="high_temp_heading">
+
+                            <div className="high_temp_text">
+                                GI Pipe
+                            </div>
+
+                            <div
+                                className="heading_icon_expand"
+                                onClick={() => { setHighSeven(!highSeven); setHighFive(false); setHighSix(false); setHighTwo(false); setHighThree(false); setHighFour(false); setHighOne(false) }}
+                            >
+                                {highSeven ? <FaAngleUp /> : <FaAngleDown />}
+                            </div>
+
+                        </div>
+
+                        <div className={`pipe_image_div ${highSeven ? "animation_drop" : ""}`}>
+                            <img src={giPipe} alt="Linep1" />
                         </div>
 
                     </div>
