@@ -119,7 +119,7 @@ const TubeDetails = () => {
                         <div className="high_temp_heading">
 
                             <div className="high_temp_text">
-                                Air Heater Tube
+                                Air Heater Tubes
                             </div>
 
                             <div

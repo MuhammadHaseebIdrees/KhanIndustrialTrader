@@ -35,12 +35,18 @@
 .products_list {
     margin-top: 3rem;
     margin-left: 15px;
+    line-height: 1.5;
 }
 
-.products_list ul li {
+.products_list ul li {}
+
+.products_list ul li a {
     font-size: 1.2rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: uppercase;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
 }
 
 @media only screen and (max-width:930px) {
@@ -56,7 +62,7 @@
 }
 
 @media only screen and (max-width:800px) {
-    
+
     .products_left_side,
     .right_side_products {
         width: 100%;
@@ -82,7 +88,7 @@
     }
 }
 
-@media only screen and (max-width:452px){
+@media only screen and (max-width:452px) {
 
     .products_main_div {
         padding: 2rem 1rem;

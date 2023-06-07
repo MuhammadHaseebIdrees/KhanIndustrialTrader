@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../AStyles/ProductsComponent.css'
 import ProductsSlider from '../Components/ProductsSlider'
 
@@ -18,13 +19,41 @@ const ProductsComponent = () => {
 
                 <div className="products_list">
                     <ul>
-                        <li>Pipes & Pipe Fittings</li>
-                        <li>Valves & Valves Fittings</li>
-                        <li>Tubes</li>
-                        <li>Flanges</li>
-                        <li>BUTT WELD FITTINGS</li>
-                        <li>FORGED STEEL FITTINGS</li>
-                        <li>Water Pumps</li>
+                        <li>
+                            <Link to='/pipes'>
+                                Pipes & Pipe Fittings
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to='/valves'>
+                                Valves & Valves Fittings
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to='/tubes'>
+                                Tubes
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to='/flanges'>
+                                Flanges
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to='/weldfittings'>
+                                Joints / BUTT WELD FITTINGS
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to='/steelfittings'>
+                                FORGED STEEL FITTINGS
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to='/pumps'>
+                                Water Pumps
+                            </Link>
+                        </li>
                     </ul>
                 </div>
 

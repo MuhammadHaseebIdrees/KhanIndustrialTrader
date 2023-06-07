@@ -16,14 +16,14 @@ import elb9 from '../Assets/valvesAssets/elb9.jpg'
 import elb10 from '../Assets/valvesAssets/elb10.jpg'
 import elb11 from '../Assets/valvesAssets/elb11.jpg'
 import elb12 from '../Assets/valvesAssets/elb12.jpg'
-import elb13 from '../Assets/valvesAssets/elb13.jpg'
-import elb14 from '../Assets/valvesAssets/elb14.jpg'
+import stainer from '../Assets/valvesAssets/stainer.png'
+import stainerTwo from '../Assets/valvesAssets/stainerTwo.png'
 import elb17 from '../Assets/valvesAssets/elb17.jpg'
 import elb18 from '../Assets/valvesAssets/elb18.jpg'
 import elb19 from '../Assets/valvesAssets/elb19.jpg'
 import elb20 from '../Assets/valvesAssets/elb20.jpg'
-import elb21 from '../Assets/valvesAssets/elb21.jpg'
-import elb22 from '../Assets/valvesAssets/elb22.jpg'
+import globeOne from '../Assets/valvesAssets/globeone.png'
+import golbeTwo from '../Assets/valvesAssets/globeTwo.png'
 
 
 const ValvesDetails = () => {
@@ -175,8 +175,8 @@ const ValvesDetails = () => {
                         </div>
 
                         <div className={`pipe_image_div ${highFive ? "animation_drop" : ""}`}>
-                            <img src={elb13} alt="elb13" />
-                            <img src={elb14} alt="elb14" />
+                            <img src={stainer} alt="stainer" />
+                            <img src={stainerTwo} alt="stainerTwo" />
                         </div>
 
                     </div>
@@ -199,8 +199,8 @@ const ValvesDetails = () => {
                         </div>
 
                         <div className={`pipe_image_div ${highSix ? "animation_drop" : ""}`}>
-                            <img src={elb21} alt="elb21" />
-                            <img src={elb22} alt="elb22" />
+                            <img src={globeOne} alt="globeOne" />
+                            <img src={golbeTwo} alt="golbeTwo" />
                         </div>
 
                     </div>

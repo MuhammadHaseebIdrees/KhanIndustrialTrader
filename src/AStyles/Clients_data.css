@@ -1,0 +1,61 @@
+.add_home_custom_class_two{
+    width: 90% !important;
+    height: 100% !important;
+    padding: 3rem 0 !important;
+    margin-top: 6rem !important;
+    overflow: hidden !important;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our_clients_heading {
+    font-size: 3rem;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    position: relative;
+    top: 2rem;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image_team_slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mySwiper {
+    overflow: hidden;
+}
+
+@media only screen and (max-width:900px) {
+    .sliderrr {
+        width: 50% !important;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .sliderrr {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .our_clients_heading {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+}

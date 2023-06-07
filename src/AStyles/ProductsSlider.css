@@ -1,4 +1,5 @@
 .my_swiper_custom {
+    margin-top: -2rem;
     width: 340px;
     height: 433px;
 }
@@ -47,14 +48,14 @@
 @media only screen and (max-width:930px) {
     .my_swiper_custom {
         width: 290px;
-        height: 403px;
+        height: 383px;
     }
 }
 
 @media only screen and (max-width:800px) {
     .my_swiper_custom {
         width: 350px;
-        height: 453px;
+        height: 443px;
     }
 }
 
@@ -62,7 +63,7 @@
 
     .my_swiper_custom {
         width: 345px;
-        height: 453px;
+        height: 433px;
     }
 
     .product_card_heading {
@@ -80,7 +81,7 @@
 
     .my_swiper_custom {
         width: 265px;
-        height: 356px;
+        height: 346px;
     }
 
     .product_card_heading {

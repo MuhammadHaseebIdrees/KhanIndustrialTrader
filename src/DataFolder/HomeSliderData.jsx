@@ -16,7 +16,7 @@ const SliderData = [
     },
     {
         id: 2,
-        title: "SEAMLESS TUEBS",
+        title: "SEAMLESS TUBES",
         image: <img src={seamlessTubes} alt='Product' />,
         text: "WE PROVIDE THE BEST SEAMLESS TUBES TO OUR CUSTOMERS."
     },

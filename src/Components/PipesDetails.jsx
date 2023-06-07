@@ -21,7 +21,9 @@ import Linep2 from '../Assets/PipeAssets/Linep2.jpg'
 import Linep3 from '../Assets/PipeAssets/Linep3.jpg'
 import Linep4 from '../Assets/PipeAssets/Linep4.jpg'
 import msPipe from '../Assets/PipeAssets/ms_pipe.png'
+import msTwoPipe from '../Assets/PipeAssets/ms_two_p.png'
 import giPipe from '../Assets/PipeAssets/Gi_pipe.png'
+import giTwoPipe from '../Assets/PipeAssets/gi_two_pipe.png'
 
 const PipesDetails = () => {
 
@@ -196,6 +198,7 @@ const PipesDetails = () => {
 
                         <div className={`pipe_image_div ${highSix ? "animation_drop" : ""}`}>
                             <img src={msPipe} alt="Linep1" />
+                            <img src={msTwoPipe} alt="Linep1" />
                         </div>
 
                     </div>
@@ -219,6 +222,7 @@ const PipesDetails = () => {
 
                         <div className={`pipe_image_div ${highSeven ? "animation_drop" : ""}`}>
                             <img src={giPipe} alt="Linep1" />
+                            <img src={giTwoPipe} alt="Linep1" />
                         </div>
 
                     </div>

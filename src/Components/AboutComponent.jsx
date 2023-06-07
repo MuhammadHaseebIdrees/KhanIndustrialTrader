@@ -54,11 +54,11 @@ const AboutComponent = () => {
                     </div>
 
                     <div className="intro_fbr">
-                        Khan Industrial Trader is legally registered to FBR (Federal Board of Revenue) with the NTN  number 1350302124275.
+                        Khan Industrial Trader is legally registered to FBR (Federal Board of Revenue) with the NTN  number 8575569-1.
                     </div>
 
                     <div className="ntn_main">
-                        Here is our NTN Number: 1350302124275
+                        Here is our NTN Number: 8575569-1
                     </div>
 
                 </div>

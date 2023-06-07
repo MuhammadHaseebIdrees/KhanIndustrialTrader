@@ -4,6 +4,7 @@ import SwiperComponent from '../Components/SliderComponent'
 import MixedPhoto from '../Components/MixedPhoto'
 import Trustable from '../Components/Trustable'
 import Footer from '../Components/Footer'
+import Clientsdata from '../Components/Clientsdata' 
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <SwiperComponent />
             <Trustable />
             <MixedPhoto />
+            <Clientsdata />
             <Footer />
         </div>
     )

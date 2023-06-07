@@ -49,7 +49,7 @@ const Footer = () => {
                         </p>
 
                         <p>
-                            <Link to='/weldfittings'>Butt Weld Fittings</Link>
+                            <Link to='/weldfittings'>Joints/Butt Weld Fittings</Link>
                         </p>
 
                         <p>

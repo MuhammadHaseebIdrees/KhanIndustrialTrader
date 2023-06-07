@@ -17,7 +17,7 @@ const ProductSliderData = [
     },
     {
         id: 2,
-        title: "SEAMLESS TUEBS",
+        title: "SEAMLESS TUBES",
         image: <img src={seamlessTubes} alt='Slider' />,
         buttonSlider: <Link to="/tubes">Read More</Link>
     },

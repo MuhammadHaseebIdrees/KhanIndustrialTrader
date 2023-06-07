@@ -23,7 +23,7 @@ const SwiperComponent = () => {
                 spaceBetween={30}
                 centeredSlides={true}
                 autoplay={{
-                    delay: 2500,
+                    delay: 5000,
                     disableOnInteraction: false,
                 }}
                 pagination={{
@@ -31,7 +31,7 @@ const SwiperComponent = () => {
                 }}
                 navigation={true}
                 modules={[Autoplay, Pagination, Navigation]}
-                className="mySwiper"
+                className="mySwiper add_home_custom_class"
             >
                 {
                     HomeSliderData.map((post) => {
@@ -67,7 +67,7 @@ const SwiperComponent = () => {
 
                         return (
                             <div className="most_outer_swiper">
-                                <SwiperSlide>
+                                <SwiperSlide className="swiper_custom">
                                     <div className={`outer_slider_view ${position}`} key={post.id} >
                                         <div className="inner_slider_view">
                                             <div className="left_inner_slider">

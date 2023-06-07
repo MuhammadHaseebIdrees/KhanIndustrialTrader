@@ -47,13 +47,13 @@ const ButtWeldFittingsDetails = () => {
         <div className='pipe_details_main'>
 
             <div className="pipes_details_heading">
-                BUTT WELD FITTINGS
+                BUTT WELD FITTINGS AND JOINTS
             </div>
 
             <div className="kinds_area">
 
                 <div className="types_heading">
-                    Follwoing are different kinds of Butt Weld Fittings:
+                    Follwoing are different kinds of Butt Weld Fittings and Joints:
                 </div>
 
                 <div className="different_expand_types">
